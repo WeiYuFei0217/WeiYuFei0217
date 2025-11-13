@@ -2,8 +2,6 @@
 
 <div align="center">
 
-<img src="profile_photo.jpg" alt="魏雨飞" width="250"/>
-
 🎓 **PhD Student @ Zhejiang University**  
 🏫 **College of Control Science and Engineering**  
 🤖 **3D Vision, World Model & Embodied AI Researcher**
@@ -225,88 +223,6 @@ School of Electronic Information and Communications
 **Venue:** 2024 IEEE International Conference on Robotics and Automation (ICRA), pp. 17417-17423  
 **Description:** NUVS addresses the labor-intensive calibration challenge in industrial visual servoing by proposing a neural uncalibrated policy that adapts to camera calibration disturbances. By estimating calibration embeddings from past observations to modulate the neural controller and leveraging PBVS supervision in simulation, it achieves both the disturbance adaptation of classical methods and the large convergence basin of learning-based approaches, outperforming IBUVS under calibration disturbances with large initial pose offsets.  
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10610364)
-
----
-
-## 🔬 Research Projects
-
-### 🚀 ZJU & xx Research Institute - Legged xx Exploration Robot Project
-Designed and led the development of a full-stack perception and navigation system for autonomous exploration in complex terrain. Built an integrated multi-sensor stack (LiDAR, stereo cameras, IMU) with a robust calibration pipeline, and implemented laser-inertial / visual-inertial localization together with deep learning–based stereo matching for dense 3D reconstruction. On top of this stack, developed a lightweight terrain analysis and path-planning framework tailored to resource-constrained platforms, operating directly on point clouds to extract ground planes, characterize terrain geometry (concavities/convexities), identify traversable regions, and generate optimized paths via graph-based planning. Validated the system in 100+ automated test scenarios, demonstrating reliable navigation performance in cluttered, highly irregular environments.
-
-*\* xx: redacted for confidentiality*
-
----
-
-### 🌾 Provincial Major R&D Program - Agricultural Automation System
-Designed and led the development of a vision-only navigation system for agricultural machinery, covering the complete sensing architecture, perception stack, and visual–inertial odometry framework. Built a four-camera and IMU perception module with a dedicated vibration-attenuating structure and implemented a multi-view visual–inertial fusion system optimized for low-texture, high-vibration agricultural environments. Integrated the system with an error-compensation tracking controller and demonstrated centimeter-level trajectory accuracy in rice-transplanter farmland trials when compared against RTK-INS ground truth.
-
----
-
-### 🦾 ZJU & ZJH (Zhejiang Humanoid Robot Innovation Center) – Wheeled Humanoid Perception & Navigation System
-Developed the perception and navigation subsystem for a wheeled humanoid robot platform. Built a vision-centric BEV representation from multi-camera inputs to generate dense costmaps and 3-DoF pose estimates. Integrated the perception layer with A* global planning and TEB local optimization, enabling reliable, obstacle-aware visual navigation for the humanoid robot's wheeled base.
-
----
-
-### 🚙 ZJU & Alibaba - Autonomous Driving Data Collection Platform
-Designed the perception hardware architecture for the autonomous driving data collection vehicle, including structural design and vehicle-level integration of the quad-camera, LiDAR, IMU, GPS/RTK, and V2X sensing modules. Implemented the multi-sensor calibration workflow and deployed the multi-view visual–IMU–GPS odometry algorithms on the vehicle platform to ensure accurate and reliable motion estimation. Conducted data consistency checks and ground-truth alignment to support high-quality multi-modal dataset generation.
-
----
-
-### 🐕 ZJU & SDU - Quadruped Robot Swarm Project
-Deployed stereo-vision–based 3D reconstruction on quadruped platforms and built a BEV-centric spatial representation for robust perception in multi-robot settings. Implemented BEV odometry to generate reliable pose estimates for downstream planning modules, enabling coordinated motion within the robot swarm.
-
----
-
-## 💼 Industrial Experience
-
-### 🏢 Shenzhen InnoX Academy - Autonomous Driving Center (2022.2 - 2022.9)
-Built a semantic line segment mapping system for autonomous street sweeping vehicles in urban environments. The system uses deep semantic segmentation to extract static linear landmarks like lamp posts and road markings. By representing these landmarks as compact line segments rather than dense point clouds, it filters out dynamic traffic participants, handles varying weather and lighting conditions, and enables real-time LiDAR-IMU SLAM on resource-constrained onboard computers.
-
----
-
-## 🏆 竞赛获奖、专利与项目
-
-### 🏆 竞赛获奖
-
-- **全国冠军&队长** - 2021年全国大学生工程实践与创新能力大赛 智能网联汽车设计赛道
-- **全国冠军&队长** - 第十五届全国大学生智能汽车竞赛 百度智能驾驶组
-- **全国冠军&队长** - 第三届中国高校智能机器人创意大赛 ROS无人机组
-- **全国一等奖&队长** - 第二十三届中国机器人及人工智能大赛 无人驾驶挑战赛 & 深度学习智能车（双赛项）
-- **省赛一等奖&队长** - 2021"西门子杯"中国智能制造挑战赛 离散行业自动化
-- **冠军&队长** - 2021"微派·种子杯"创新性软件编程PK赛
-- **冠军&队长** - 华中科技大学第十四届瑞萨杯智能车大赛
-- **二等奖** - 全国大学生电工数学建模、MathorCup高校数学建模、"华中杯"大学生数学建模
-
-### 📜 发明专利
-
-- **CN202411248996.8** - 基于鸟瞰视角表征的单目视觉里程计系统及其方法（第一学生发明人）
-- **CN202411981529.6** - 基于鸟瞰视角表征和可微分加权Procrustes求解器的单目视觉里程计方法和系统（第一学生发明人）
-- **CN202110568966.5** - 基于双目视觉和深度学习的车辆避障方法与电子设备（第一学生发明人）
-- **CN202110971772.X** - 一种基于模仿学习和强化学习的高速运动车辆控制方法（第一学生发明人）
-- **CN202110979800.2** - 一种双阶段自动驾驶车辆调头轨迹规划方法（第一学生发明人）
-
-### 🌱 本科生创业项目
-
-- **省级大创** - "基于双目视觉和深度学习的轻量级无人配送车"（初创项目，优秀结题）
-
----
-
-## 🌟 Beyond Research
-
-### 🏫 广西玉林-古城小学支教
-
-2019 年盛夏，我随支教队来到广西玉林古城小学，兼任英语老师和班主任，在潮湿闷热与忽晴忽雨的天气里，与几十个性格迥异的孩子一起度过了难忘的三周。最初从慌乱铺床、紧张上课，到熟悉校园每个角落、能够从容站上讲台，我在备课、带班、家访和无数次"崩溃-重整"的循环中，慢慢学会了承担、耐心与真正意义上的陪伴。孩子们一句"老师，你讲得好有意思"、几份终于不再抄袭的作业,和他们在暴雨后操场上肆意奔跑的身影，始终是我跨过高烧、争执与自我怀疑的力量来源。
-
-小时候看过一部关于拐卖的纪录片，从那时起，我便一直怀揣着想要解决拐卖的问题。这个梦想至今仍遥远，但在这所偏远的山村小学，在 2019 年那个潮湿的夏天，我第一次真切意识到：教育与守护是预防伤害的第一道防线，也是为孩子们在深山穹顶上打开的一扇天窗。离开古城小学后，我仍常想起那些在黄昏灯光下写作业、在最后一晚的月光下与我道别的孩子们——愿我当时笨拙却真诚的努力，能在他们的人生里留下哪怕一点点温暖而长久的光。
-
----
-
-### 💼 创业经历
-
-在本科阶段，我组建并领导了一支共计11人的创始团队，发起了一款智能人体工学椅项目，致力于解决久坐带来的腰背健康问题。我们目标是通过"可感知、会学习、能主动支撑"的椅背系统，提供超越传统座椅的个性化支撑体验。我主导了整体产品规划与技术路线设计，从市场调研、用户需求分析，到功能定义、系统架构设计与项目实施，全面推动了方案的落地和团队的协同。
-
-我们的核心技术结合了压力传感矩阵、背部传感器与机器学习算法，能够精准识别用户身份、臀部位置与坐姿，并据此自动调整支撑力度。我们的支撑系统采用机械推杆与多分区气囊组合，机械部分负责大范围调节，气囊则提供精细调整，支持全自动、半自动和手动调节。通过App与实体按键的交互，系统能不断学习并优化用户习惯，实现个性化的追背与腰骶骨支撑效果。在此过程中，我带领团队运用第一性原理分析问题，并通过最小子系统迭代验证方案，成功完成了三代功能样机，涵盖了从结构设计、控制电路到算法验证、供应链与专利布局的完整流程，并顺利获得了天使轮融资机会。
-
 ---
 
 <div align="center">
