@@ -224,6 +224,7 @@ School of Electronic Information and Communications
 **Venue:** 2024 IEEE International Conference on Robotics and Automation (ICRA), pp. 17417-17423  
 **Description:** NUVS addresses the labor-intensive calibration challenge in industrial visual servoing by proposing a neural uncalibrated policy that adapts to camera calibration disturbances. By estimating calibration embeddings from past observations to modulate the neural controller and leveraging PBVS supervision in simulation, it achieves both the disturbance adaptation of classical methods and the large convergence basin of learning-based approaches, outperforming IBUVS under calibration disturbances with large initial pose offsets.  
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10610364)
+
 ---
 
 <div align="center">
